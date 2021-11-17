@@ -10,8 +10,8 @@ class _02_SwappingDigitsTest {
     void test1() {
         int[] x = {5, 6};
         int[] y = {6, 5};
-        _02_SwappingDigits.swapArrayOfTwo(x);
-        assertArrayEquals(y, x);
+        int[] array = _02_SwappingDigits.swapArrayOfTwo(x);
+        assertArrayEquals(array, y);
     }
     
     @Test
